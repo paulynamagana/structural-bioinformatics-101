@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "structural-bioinformatics-101"
@@ -12,10 +13,8 @@ website:
     tools:
       - icon: github
         menu:
-          - text: Source Code
-            href:  https://code.com
-          - text: Report a Bug
-            href:  https://bugs.com 
+          - text: Code
+            href: https://github.com/paulynamagana/structural-bioinformatics-101
   sidebar:
     style: "docked"
     search: true
@@ -27,7 +26,7 @@ format:
       dark: darkly
     css: styles.css
     toc: true
-
+github-repo: 
 editor: visual
 
 
