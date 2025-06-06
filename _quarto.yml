@@ -1,0 +1,34 @@
+project:
+  type: website
+
+website:
+  title: "structural-bioinformatics-101"
+  page-footer: "Copyright 2025, Paulyna Magaña" 
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href:  https://code.com
+          - text: Report a Bug
+            href:  https://bugs.com 
+  sidebar:
+    style: "docked"
+    search: true
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+
+editor: visual
+
+
+
