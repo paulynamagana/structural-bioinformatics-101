@@ -41,7 +41,3 @@ format:
     code-overflow: wrap
     respect-user-color-scheme: true
     
-  pdf: 
-    documentclass: scrbook
-    fontfamily: libertinus
-    number-depth: 1
